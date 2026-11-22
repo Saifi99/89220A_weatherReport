@@ -1,8 +1,27 @@
-﻿.venv/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.pytest_cache/
-.vscode/
-data/raw/
+﻿# Secrets: never commit API keys
 .env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.python-version
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project data cache (re-downloaded from Open-Meteo on first run)
+data/
